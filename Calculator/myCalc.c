@@ -10,10 +10,17 @@ int main(){
     double first, second;
     printf("Enter two operands: ");
     scanf("%lf %lf", &first, &second);
-    printf("The sum of first and second: %d\n", add(first, second));
-    printf("The difference of first and second: %d\n", subs(first, second));
-    printf("The product of first and second: %d\n", prod(first, second));
-    printf("The quotient of first and second: %d\n", divid(first, second));
-		
+    printf("The sum of %f and %f: %d\n", first, second, add(first, second));
+    printf("The difference of %f and %f: %d\n", first, second, subs(first, second));
+    printf("The product of %f and %f: %d\n", first, second, prod(first, second));
+    if(second != 0){
+        printf("The quotient of %f and %f: %d\n", first, second, divid(first, second));
+	
+    }
+    else{
+        printf("The quotient of %f and %f: Infinity\n", first, second);
+	
+    }
+    	
 	return 0;
 }
