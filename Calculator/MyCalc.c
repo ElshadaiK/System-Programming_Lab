@@ -1,22 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "functions.h"
 /*
 This is the main method
 It's the entry point of our program
 */
-int add(int a, int b){
-	return a+b;
-}
-int subs(int a, int b){
-	return a-b;
-}
-int prod(int a, int b){
-	return a*b;
-}
-int divid(int a, int b){
-	return a/b;
-}
 int main(){
     double first, second;
     printf("Enter two operands: ");
