@@ -5,6 +5,7 @@ void swap(int *ptr1, int *ptr2);
 void sort(int arr[], int n);
 void repeated();
 void rowColCount();
+void anythingYouLike();
 int main() {
     // 1
     int j = ARRAYSIZE;
@@ -69,6 +70,12 @@ int main() {
 
     // Row and column sums
     rowColCount();
+
+    // Pointers:
+    // Part A: Printing Memory Addresses
+
+    // 1
+    anythingYouLike();
 
 
     printf("\nThe maximum age is = %d \n", age[j-1]) ;
@@ -163,4 +170,19 @@ void rowColCount(){
 
     }
     printf("\n");
+}
+void anythingYouLike(){
+    double d;
+    int i;
+    char str[20];
+    printf("Enter a double: ");
+    scanf("%lf", &d);
+    printf("Enter an int: ");
+    scanf("%d", &i);
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    printf("The double is: %lf and stored in %p \n", d, &d);
+    printf("The int is: %d and stored in %p \n", i, &i);
+    printf("The string is: %s and stored in %p \n", str, &str);
 }
