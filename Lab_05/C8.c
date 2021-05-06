@@ -4,7 +4,7 @@
 void stringConcat(char *str1,char *str2)
 {
 	int i;
-	int j = strlen(str2);
+	int j = strlen(str1);
 	//int j = (int)malloc(strlen(str2));
 	
 	while (str2[i] != '\0') {
@@ -17,8 +17,8 @@ void stringConcat(char *str1,char *str2)
 
 void main()
 {
-    char str1[] = "Aymen";
-    char str2[] = "Moh";
+    char str1[100] = "Elsh ";
+    char str2[] = "Tegegn";
 
     stringConcat(str1, str2);
     printf("Concatinated String: %s", str1);
