@@ -5,9 +5,9 @@ void swap(int x, int y)
 	int *px, *py;
 	px = &x, py = &y;
 	
-	int temp = px;
-	px = py;
-	py = temp;
+	int temp = *px;
+	*px = *py;
+	*py = temp;
 }
 
 int main()
