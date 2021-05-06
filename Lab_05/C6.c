@@ -13,6 +13,6 @@ int strLen(char* str)
 
 void main()
 {
-    char str[] = "Aymen";
+    char str[] = "Elshadai";
     printf("Length is %d\n", strLen(str));
 }

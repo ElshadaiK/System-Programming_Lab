@@ -21,7 +21,7 @@ char* strCopy(char str1[])
 
 void main()
 {
-    char str1[10] = "Aymen";
+    char str1[10] = "Elshadai";
     char* str2;
 
     str2 = strCopy(str1);

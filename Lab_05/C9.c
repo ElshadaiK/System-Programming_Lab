@@ -21,6 +21,6 @@ int contains(char str1[], char str2[])
 
 int main()
 {
-	printf("%d\n", contains("Aymen", "men"));
+	printf("%d\n", contains("Elshadai", "dai"));
 	return 0;
 }
